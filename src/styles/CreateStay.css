@@ -1,0 +1,41 @@
+.create-stay-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.create-stay-container h1 {
+  text-align: center;
+}
+
+.create-stay-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-stay-container label {
+  margin: 10px 0 5px;
+}
+
+.create-stay-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-stay-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-stay-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
